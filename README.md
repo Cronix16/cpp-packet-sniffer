@@ -10,7 +10,7 @@
 * Array Slots 6-11: Source MAC Address;
 * Array Slots 12-13: Protocol Type (like IPv4 or ARP).
 
-#How to run it
+#How to run it:
 1. Install the required tools: 'sudo apt install build-essential libpcap-dev'.
 2. Compile the code: './build.sh' (or manually run: 'g++ sniffer.cpp -o sniffer -lpcap').
 3. Run the sniffer: 'sudo ./sniffer'.
